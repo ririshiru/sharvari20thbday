@@ -1,0 +1,1260 @@
+{
+  "frame": {
+    "x": 602,
+    "y": 0,
+    "width": 393,
+    "height": 6054
+  },
+  "elements": [
+    {
+      "id": "24:4",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 0,
+      "w": 393,
+      "h": 852,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "30:51",
+      "name": "image 4",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 852,
+      "w": 393,
+      "h": 852,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.7407407164573669,
+          0,
+          0.12962965667247772
+        ],
+        [
+          0,
+          0.7413792014122009,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "30:64",
+      "name": "image 5",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 852,
+      "w": 393,
+      "h": 852,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.7407407164573669,
+          0,
+          0.12962965667247772
+        ],
+        [
+          0,
+          0.7413792014122009,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "27:33",
+      "name": "20th",
+      "type": "TEXT",
+      "x": 46.87890625,
+      "y": 110.95703125,
+      "w": 58.806640625,
+      "h": 21.365234375,
+      "color": {
+        "r": 1,
+        "g": 0.6349176168441772,
+        "b": 0.9269834756851196,
+        "a": 1
+      },
+      "text": "20th",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 30,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 0.6349176168441772,
+          "b": 0.9269834756851196,
+          "a": 1
+        },
+        "textAlign": "LEFT",
+        "lineHeight": 35.390625,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:303",
+      "name": "Group 3",
+      "type": "GROUP",
+      "x": 0,
+      "y": 735,
+      "w": 393,
+      "h": 52
+    },
+    {
+      "id": "28:39",
+      "name": "Scroll to find out...",
+      "type": "TEXT",
+      "x": 54.07421875,
+      "y": 764.20703125,
+      "w": 152.72265625,
+      "h": 15.0078125,
+      "color": {
+        "r": 1,
+        "g": 0.9875611662864685,
+        "b": 0.9975122213363647,
+        "a": 1
+      },
+      "text": "Scroll to find out...",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 20,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 0.9875611662864685,
+          "b": 0.9975122213363647,
+          "a": 1
+        },
+        "textAlign": "LEFT",
+        "lineHeight": 23.59375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "28:38",
+      "name": "You may ask--So what’s the plan??",
+      "type": "TEXT",
+      "x": 53.048828125,
+      "y": 738.109375,
+      "w": 285.88671875,
+      "h": 18.69921875,
+      "color": {
+        "r": 1,
+        "g": 0.9875611662864685,
+        "b": 0.9975122213363647,
+        "a": 1
+      },
+      "text": "You may ask--So what’s the plan??",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 20,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 0.9875611662864685,
+          "b": 0.9975122213363647,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 23.59375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "28:37",
+      "name": "BIRTHDAY",
+      "type": "TEXT",
+      "x": 45.85400390625,
+      "y": 59.9140625,
+      "w": 302.6612548828125,
+      "h": 40.152801513671875,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "text": "BIRTHDAY",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 65,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 76.6796875,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:63",
+      "name": "Group 2",
+      "type": "GROUP",
+      "x": 0,
+      "y": 1074,
+      "w": 393,
+      "h": 519
+    },
+    {
+      "id": "30:52",
+      "name": "Group 1",
+      "type": "GROUP",
+      "x": 106,
+      "y": 1074,
+      "w": 266.0001220703125,
+      "h": 349.956298828125
+    },
+    {
+      "id": "30:48",
+      "name": "image 3",
+      "type": "RECTANGLE",
+      "x": 106,
+      "y": 1074,
+      "w": 266.0001220703125,
+      "h": 349.956298828125,
+      "imageRef": "6dc14a12c9848a7221c7b84be65d6562bc319431",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.6680585145950317,
+          0,
+          0.16283924877643585
+        ],
+        [
+          0,
+          0.4941314458847046,
+          0.2523474097251892
+        ]
+      ]
+    },
+    {
+      "id": "30:50",
+      "name": "11",
+      "type": "TEXT",
+      "x": 239.0789794921875,
+      "y": 1141.2879638671875,
+      "w": 55.8431396484375,
+      "h": 43.2130126953125,
+      "color": {
+        "r": 0.680267333984375,
+        "g": 0.5246301293373108,
+        "b": 0.21912018954753876,
+        "a": 1
+      },
+      "text": "11",
+      "style": {
+        "fontFamily": "Bilbo Swash Caps",
+        "fontSize": 79,
+        "fontWeight": 400,
+        "color": {
+          "r": 0.680267333984375,
+          "g": 0.5246301293373108,
+          "b": 0.21912018954753876,
+          "a": 1
+        },
+        "textAlign": "LEFT",
+        "lineHeight": 98.75,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:58",
+      "name": "image 5",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 1351,
+      "w": 393,
+      "h": 242,
+      "imageRef": "3872ef902279ae6e5b54cf9095abf0ca3b0d0af2",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "30:61",
+      "name": "DAY TIME PLAN",
+      "type": "TEXT",
+      "x": 42.7265625,
+      "y": 1452.1875,
+      "w": 116.546875,
+      "h": 12.1875,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "DAY TIME PLAN",
+      "style": {
+        "fontFamily": "Gulim",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 22.625,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:62",
+      "name": "EVENING PLAN",
+      "type": "TEXT",
+      "x": 245.34375,
+      "y": 1498.1875,
+      "w": 111.3125,
+      "h": 12.1875,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "EVENING PLAN",
+      "style": {
+        "fontFamily": "Gulim",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 22.625,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "24:6",
+      "name": "CELEBRATING THE COMPLETION OF 2 DECADES IN THIS MORTAL WORLD",
+      "type": "TEXT",
+      "x": 44.52001953125,
+      "y": 140.55999755859375,
+      "w": 116.013671875,
+      "h": 87.58000183105469,
+      "color": {
+        "r": 0.41817590594291687,
+        "g": 0.4022262394428253,
+        "b": 0.4022262394428253,
+        "a": 1
+      },
+      "text": "CELEBRATING THE COMPLETION OF 2 DECADES IN THIS MORTAL WORLD",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.41817590594291687,
+          "g": 0.4022262394428253,
+          "b": 0.4022262394428253,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:274",
+      "name": "AND IT’S INCOMPLETE WITHOUT YOU, because honestly, I am entirely made of the pieces, memories, and parts shared with you.",
+      "type": "TEXT",
+      "x": 212.030029296875,
+      "y": 609.1699829101562,
+      "w": 154.86529541015625,
+      "h": 123.97003173828125,
+      "color": {
+        "r": 0.41817590594291687,
+        "g": 0.4022262394428253,
+        "b": 0.4022262394428253,
+        "a": 1
+      },
+      "text": "AND IT’S INCOMPLETE WITHOUT YOU, because honestly, I am entirely made of the pieces, memories, and parts shared with you.",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.41817590594291687,
+          "g": 0.4022262394428253,
+          "b": 0.4022262394428253,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:65",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 1694,
+      "w": 393,
+      "h": 872,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.5443439483642578,
+          0,
+          0.32533392310142517
+        ],
+        [
+          0,
+          0.6635032892227173,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "31:229",
+      "name": "image 8",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 2566,
+      "w": 393,
+      "h": 872,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.5443439483642578,
+          0,
+          0.32533392310142517
+        ],
+        [
+          0,
+          0.6635032892227173,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "38:331",
+      "name": "image 16",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 3438,
+      "w": 393,
+      "h": 872,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.5443439483642578,
+          0,
+          0.32533392310142517
+        ],
+        [
+          0,
+          0.6635032892227173,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "38:357",
+      "name": "image 19",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 4310,
+      "w": 393,
+      "h": 872,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.5443439483642578,
+          0,
+          0.32533392310142517
+        ],
+        [
+          0,
+          0.6635032892227173,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "38:369",
+      "name": "image 22",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 5182,
+      "w": 393,
+      "h": 872,
+      "imageRef": "ee8a32d119d1220cfe3b0fb495895dcd635038e4",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          0.5443439483642578,
+          0,
+          0.32533392310142517
+        ],
+        [
+          0,
+          0.6635032892227173,
+          0.12931033968925476
+        ]
+      ]
+    },
+    {
+      "id": "30:67",
+      "name": "image 7",
+      "type": "RECTANGLE",
+      "x": 14,
+      "y": 1936,
+      "w": 364,
+      "h": 620,
+      "imageRef": "b77816d6f32f54a469e53ad12964c6f3efffb90c",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "30:71",
+      "name": "PUNE CAMP",
+      "type": "TEXT",
+      "x": 135.28411865234375,
+      "y": 2012.35205078125,
+      "w": 123.88519287109375,
+      "h": 38.885986328125,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "PUNE CAMP",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 17,
+        "fontWeight": 700,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 30.480998992919922,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:72",
+      "name": "SATTARI DESSERT SHOP",
+      "type": "TEXT",
+      "x": 82.37109375,
+      "y": 2127.423095703125,
+      "w": 217.9185791015625,
+      "h": 92.39990234375,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "SATTARI DESSERT SHOP",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 17,
+        "fontWeight": 700,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 30.480998992919922,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "31:232",
+      "name": "JOIN ME FOR A DAY OUT, WHERE WE TRY DESSERTS, VISIT A GOOD LUNCH PLACE AND GRAB SNACKS ON MY LIST FROM STORE FOR EVENING PLAN--A SNACK HAUL.",
+      "type": "TEXT",
+      "x": 40.15997314453125,
+      "y": 1812.56005859375,
+      "w": 352.84002685546875,
+      "h": 123.5799560546875,
+      "color": {
+        "r": 0.41817590594291687,
+        "g": 0.4022262394428253,
+        "b": 0.4022262394428253,
+        "a": 1
+      },
+      "text": "JOIN ME FOR A DAY OUT, WHERE WE TRY DESSERTS, VISIT A GOOD LUNCH PLACE AND GRAB SNACKS ON MY LIST FROM  STORE FOR EVENING PLAN--A SNACK HAUL.",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.41817590594291687,
+          "g": 0.4022262394428253,
+          "b": 0.4022262394428253,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:318",
+      "name": "CALCULATED EXPENSE OF DAY OUT: 500/- PER PERSON",
+      "type": "TEXT",
+      "x": 248.98419189453125,
+      "y": 2476.56005859375,
+      "w": 144.01580810546875,
+      "h": 141.579833984375,
+      "color": {
+        "r": 0.9985234141349792,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "CALCULATED EXPENSE OF DAY OUT: 500/- PER PERSON",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.9985234141349792,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "RIGHT",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "31:228",
+      "name": "CAMP BURGER",
+      "type": "TEXT",
+      "x": 116.57830810546875,
+      "y": 2313.847900390625,
+      "w": 143.54754638671875,
+      "h": 77.21435546875,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "CAMP BURGER",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 17,
+        "fontWeight": 700,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 30.480998992919922,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "30:91",
+      "name": "Vector 1",
+      "type": "VECTOR",
+      "x": 61,
+      "y": 2101.831787109375,
+      "w": 263,
+      "h": 129.336181640625
+    },
+    {
+      "id": "30:69",
+      "name": "DAY TIME",
+      "type": "TEXT",
+      "x": 57.42236328125,
+      "y": 1768.9140625,
+      "w": 274.58941650390625,
+      "h": 40.720703125,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "text": "DAY TIME",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 65,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 76.6796875,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "31:227",
+      "name": "Vector 2",
+      "type": "VECTOR",
+      "x": 72.5,
+      "y": 2273.799560546875,
+      "w": 245.5,
+      "h": 132.387451171875
+    },
+    {
+      "id": "31:230",
+      "name": "Vector 3",
+      "type": "VECTOR",
+      "x": 95,
+      "y": 2552.5,
+      "w": 204,
+      "h": 7
+    },
+    {
+      "id": "31:242",
+      "name": "image 10",
+      "type": "RECTANGLE",
+      "x": 60,
+      "y": 2816,
+      "w": 280,
+      "h": 371,
+      "imageRef": "3d03098c3ff0fa4930a45ea2c8fde0b0f2851e61",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "31:256",
+      "name": "It’s my birthday, so you already know we have to do it big. Grab the prettiest, most scandalous dress in your closet and meet me at my place at 6:30 PM sharp! We are doing it all: fun games, an actual photoshoot, tons of food, a massive snack haul, and obviously a lot of dancing. P.S. If you want to get me a gift, I actually made a list of stuff I want! 🔗 VIEW MY GIFT REGISTRY HERE",
+      "type": "TEXT",
+      "x": 70,
+      "y": 2929.090087890625,
+      "w": 304,
+      "h": 250.909912109375,
+      "color": {
+        "r": 0.41817590594291687,
+        "g": 0.4022262394428253,
+        "b": 0.4022262394428253,
+        "a": 1
+      },
+      "text": "It’s my birthday, so you already know we have to do it big. Grab the prettiest, most scandalous dress in your closet and meet me at my place at 6:30 PM sharp! We are doing it all: fun games, an actual photoshoot, tons of food, a massive snack haul, and obviously a lot of dancing. P.S. If you want to get me a gift, I actually made a list of stuff I want! 🔗 VIEW MY GIFT REGISTRY HERE",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.41817590594291687,
+          "g": 0.4022262394428253,
+          "b": 0.4022262394428253,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "31:245",
+      "name": "image 11",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 2758,
+      "w": 201.91326904296875,
+      "h": 208.65673828125,
+      "imageRef": "b35324cf329e81108fd29156058fb3759548d93d",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "38:304",
+      "name": "image 13",
+      "type": "RECTANGLE",
+      "x": 196,
+      "y": 2758,
+      "w": 197,
+      "h": 209.25048828125,
+      "imageRef": "b35324cf329e81108fd29156058fb3759548d93d",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "31:248",
+      "name": "image 12",
+      "type": "RECTANGLE",
+      "x": 98.00006103515625,
+      "y": 2755,
+      "w": 211.05059814453125,
+      "h": 173.22998046875,
+      "imageRef": "ae7427b55664695c8917559644aef67fbe2957ae",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "31:231",
+      "name": "EVENING TIME",
+      "type": "TEXT",
+      "x": 65.8330078125,
+      "y": 2623.279296875,
+      "w": 259.333984375,
+      "h": 118.35546875,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "text": "EVENING TIME",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 65,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 76.6796875,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:351",
+      "name": "image 17",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 3575,
+      "w": 157,
+      "h": 198,
+      "imageRef": "23ac268d82cff1d4f279ae0f71de6e3e67d61bee",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "38:332",
+      "name": "LOCK YOUR COLOR",
+      "type": "TEXT",
+      "x": 101.873046875,
+      "y": 3451.279296875,
+      "w": 199.158203125,
+      "h": 149.35546875,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "text": "LOCK YOUR COLOR",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 65,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 54.28921890258789,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:374",
+      "name": "TOH AARAHE HO NAH??",
+      "type": "TEXT",
+      "x": 52.392578125,
+      "y": 5306.279296875,
+      "w": 290.310546875,
+      "h": 149.35546875,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "text": "TOH AARAHE HO NAH??",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 65,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 54.28921890258789,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "33:257",
+      "name": "A HOUSE PARTY",
+      "type": "TEXT",
+      "x": 227.861328125,
+      "y": 3111.490234375,
+      "w": 85.2384033203125,
+      "h": 39.53369140625,
+      "color": {
+        "r": 1,
+        "g": 0.6349176168441772,
+        "b": 0.9269834756851196,
+        "a": 1
+      },
+      "text": "A HOUSE PARTY",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 21,
+        "fontWeight": 800,
+        "color": {
+          "r": 1,
+          "g": 0.6349176168441772,
+          "b": 0.9269834756851196,
+          "a": 1
+        },
+        "textAlign": "RIGHT",
+        "lineHeight": 24.7734375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:312",
+      "name": "image 15",
+      "type": "RECTANGLE",
+      "x": 56,
+      "y": 3229,
+      "w": 290,
+      "h": 161,
+      "imageRef": "d4a3a727d0785fcdd13f7e9cf3360a0a1ff0bcb6",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0.9745596051216125,
+          0.024826517328619957
+        ]
+      ]
+    },
+    {
+      "id": "38:314",
+      "name": "⚠️ BUT THERE’S A CATCH... Your entry ticket into the party is a snack that matches the exact color of ANYTHING you are wearing. No matching snack, no entry. Choose your outfit (and your cravings) wisely.",
+      "type": "TEXT",
+      "x": 124,
+      "y": 3229.699951171875,
+      "w": 253.97052001953125,
+      "h": 197.9599609375,
+      "color": {
+        "r": 0.41817590594291687,
+        "g": 0.4022262394428253,
+        "b": 0.4022262394428253,
+        "a": 1
+      },
+      "text": "⚠️ BUT THERE’S A CATCH... Your entry ticket into the party is a snack that matches the exact color of ANYTHING you are wearing. No matching snack, no entry. Choose your outfit (and your cravings) wisely.",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": {
+          "r": 0.41817590594291687,
+          "g": 0.4022262394428253,
+          "b": 0.4022262394428253,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 17.93000030517578,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:333",
+      "name": "Frame 2",
+      "type": "FRAME",
+      "x": 51,
+      "y": 3687,
+      "w": 299,
+      "h": 280,
+      "color": {
+        "r": 1,
+        "g": 0.9569960236549377,
+        "b": 0.9913991689682007,
+        "a": 1
+      }
+    },
+    {
+      "id": "38:346",
+      "name": "DIVASZZ YOU WILL MEET",
+      "type": "TEXT",
+      "x": 100.83203125,
+      "y": 3712.27734375,
+      "w": 199.423828125,
+      "h": 10.8984375,
+      "color": {
+        "r": 0.9443336129188538,
+        "g": 0.2032926231622696,
+        "b": 0.8331780433654785,
+        "a": 1
+      },
+      "opacity": 0.8399999737739563,
+      "text": "DIVASZZ  YOU WILL MEET ",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 18,
+        "fontWeight": 800,
+        "color": {
+          "r": 0.9443336129188538,
+          "g": 0.2032926231622696,
+          "b": 0.8331780433654785,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 21.234375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:356",
+      "name": "add animation of floating hearts and the entered names by girls will float here",
+      "type": "TEXT",
+      "x": 102.1923828125,
+      "y": 3808.486328125,
+      "w": 190.23046875,
+      "h": 74.689453125,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "add animation of floating hearts and the entered names by girls will float here",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 18,
+        "fontWeight": 800,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 21.234375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:379",
+      "name": "Vector 4",
+      "type": "VECTOR",
+      "x": 63.5,
+      "y": 3701.5,
+      "w": 272,
+      "h": 251.5
+    },
+    {
+      "id": "38:335",
+      "name": "Frame 3",
+      "type": "FRAME",
+      "x": 51,
+      "y": 4008,
+      "w": 299,
+      "h": 40,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "id": "38:345",
+      "name": "TYPE HERE YOUR {NAME-DAY-EVENING/BOTH-COLOR}...",
+      "type": "TEXT",
+      "x": 69.587890625,
+      "y": 4013.986328125,
+      "w": 264.3544921875,
+      "h": 25.765625,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "opacity": 0.6200000047683716,
+      "text": "TYPE HERE YOUR {NAME-DAY-EVENING/BOTH-COLOR}...",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 13,
+        "fontWeight": 800,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 15.3359375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:349",
+      "name": "Group 4",
+      "type": "GROUP",
+      "x": 54,
+      "y": 4079,
+      "w": 135,
+      "h": 35
+    },
+    {
+      "id": "38:347",
+      "name": "Frame 4",
+      "type": "FRAME",
+      "x": 54,
+      "y": 4079,
+      "w": 135,
+      "h": 35,
+      "color": {
+        "r": 0.8313682675361633,
+        "g": 0.9512619376182556,
+        "b": 0.5915809869766235,
+        "a": 1
+      }
+    },
+    {
+      "id": "38:348",
+      "name": "ACCEPT INVITATION",
+      "type": "TEXT",
+      "x": 63.52685546875,
+      "y": 4093.255859375,
+      "w": 115.8828125,
+      "h": 7.87109375,
+      "color": {
+        "r": 0.16036561131477356,
+        "g": 0.3851274251937866,
+        "b": 0.0919598639011383,
+        "a": 1
+      },
+      "text": "ACCEPT INVITATION",
+      "style": {
+        "fontFamily": "Abhaya Libre ExtraBold",
+        "fontSize": 13,
+        "fontWeight": 800,
+        "color": {
+          "r": 0.16036561131477356,
+          "g": 0.3851274251937866,
+          "b": 0.0919598639011383,
+          "a": 1
+        },
+        "textAlign": "CENTER",
+        "lineHeight": 15.3359375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:354",
+      "name": "image 18",
+      "type": "RECTANGLE",
+      "x": 218,
+      "y": 4038,
+      "w": 175,
+      "h": 216,
+      "imageRef": "efe1b74a99c13030962c0f7e0770d8d9fed7e794",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "38:362",
+      "name": "image 21",
+      "type": "RECTANGLE",
+      "x": 120,
+      "y": 4446,
+      "w": 154,
+      "h": 191,
+      "imageRef": "c6cc556b83bc9bdc14311ce96cc46fe0de343d61",
+      "scaleMode": "FILL"
+    },
+    {
+      "id": "38:359",
+      "name": "image 20",
+      "type": "RECTANGLE",
+      "x": 4,
+      "y": 4637,
+      "w": 385,
+      "h": 288,
+      "imageRef": "8376955facb722e26270d0cf8d7f80a4c2f94c25",
+      "scaleMode": "STRETCH",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0.7480519413948059,
+          0.12727272510528564
+        ]
+      ]
+    },
+    {
+      "id": "38:368",
+      "name": "* [TERMS AND CONDITIONS]: Failure to attend at least one plan will result in a legally binding, lifelong grudge. I will never forget, and I will never let you live it down.",
+      "type": "TEXT",
+      "x": 26.0419921875,
+      "y": 4760.09423828125,
+      "w": 366.9580078125,
+      "h": 191.1015625,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "text": "* [TERMS AND CONDITIONS]: Failure to attend at least one plan will result in a legally binding, lifelong grudge. I will never forget, and I will never let you live it down.",
+      "style": {
+        "fontFamily": "Glegoo",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "textAlign": "JUSTIFIED",
+        "lineHeight": 25.101999282836914,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "id": "38:371",
+      "name": "image 23",
+      "type": "RECTANGLE",
+      "x": 25,
+      "y": 5561,
+      "w": 351,
+      "h": 411,
+      "imageRef": "bfe836a991c9c652a847b4f48d5dc246c4f934f2",
+      "scaleMode": "FILL"
+    }
+  ]
+}

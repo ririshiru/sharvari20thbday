@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Bilbo+Swash+Caps&family=Glegoo:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+.app-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.canvas-container {
+  width: 393px;
+  height: 5112px;
+  background-color: #000;
+  position: relative;
+  transform-origin: top center;
+  overflow: hidden;
+}
+
+@media (max-width: 393px) {
+  .canvas-container {
+    transform: scale(calc(100vw / 393));
+    margin-bottom: calc(5112px * (100vw / 393) - 5112px);
+  }
+}
+
+/* ==================================
+   PAGE ONE STYLES (0 - 852px)
+   ================================== */
+
+/* image 2 - page 1 background */
+.image-2 {
+  position: absolute;
+  width: 479px;
+  height: 852px;
+  left: -86px;
+  top: 0px;
+}
+
+/* Girl's Photo in Hero Section */
+.hero-photo {
+  position: absolute;
+  width: 270px;
+  height: 695px;
+  left: 40px;
+  top: 190px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Large Flower (Right) overlay */
+.hero-flower-large {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 220px;
+  top: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  pointer-events: none;
+  animation: bloom-large 4.8s ease-in-out infinite;
+}
+
+@keyframes bloom-large {
+
+  0%,
+  100% {
+    transform: rotate(-10deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(-8deg) scale(1.04);
+  }
+}
+
+/* Small Flower (Left) overlay */
+.hero-flower-small {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 10px;
+  top: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  pointer-events: none;
+  animation: bloom-small 4.8s ease-in-out infinite;
+}
+
+@keyframes bloom-small {
+
+  0%,
+  100% {
+    transform: rotate(-30deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(-28deg) scale(1.04);
+  }
+}
+
+/* BIRTHDAY */
+.text-birthday {
+  position: absolute;
+  width: 315px;
+  height: 62px;
+  left: 39px;
+  top: 44px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 77px;
+  text-align: center;
+  color: #000;
+}
+
+/* 20th */
+.text-20th {
+  position: absolute;
+  width: 82px;
+  height: 26px;
+  left: 47px;
+  top: 106px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFA2EC;
+  -webkit-text-stroke: 1px #9A4747;
+}
+
+/* CELEBRATING THE COMPLETION... */
+.text-celebrating {
+  position: absolute;
+  width: 115px;
+  height: 72px;
+  left: 47px;
+  top: 140px;
+  font-family: 'Glegoo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: left;
+  color: #6B6767;
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+/* AND IT'S INCOMPLETE WITHOUT YOU... */
+.text-incomplete {
+  position: absolute;
+  width: 145px;
+  height: 108px;
+  left: 218px;
+  top: 609px;
+  font-family: 'Glegoo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: right;
+  color: #6B6767;
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.25);
+}
+
+/* You may ask--So what's the plan?? */
+.text-ask {
+  position: absolute;
+  width: 393px;
+  height: 26px;
+  left: 0px;
+  top: 735px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFCFE;
+  -webkit-text-stroke: 1px #5F5F5F;
+}
+
+.text-plan {
+  color: #FFA2EC;
+  -webkit-text-stroke: 1px #9A4747;
+}
+
+/* Scroll to find out... */
+.text-scroll {
+  position: absolute;
+  width: 200px;
+  height: 26px;
+  left: 54px;
+  top: 761px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFCFE;
+  -webkit-text-stroke: 1px #5F5F5F;
+}
+
+/* ==================================
+   PAGE TWO STYLES (852px - 1704px)
+   ================================== */
+
+/* image 4 - page 2 background */
+.image-4 {
+  position: absolute;
+  width: 479px;
+  height: 852px;
+  left: -86px;
+  top: 852px;
+}
+
+/* image 5 (background) - extended to bridge gap */
+.image-5-bg {
+  position: absolute;
+  width: 402px;
+  height: 852px;
+  left: -4px;
+  top: 852px;
+}
+
+/* image 3 - calendar */
+.image-3 {
+  position: absolute;
+  width: 266px;
+  height: 349.96px;
+  left: 106px;
+  top: 1074px;
+}
+
+/* Flower on Page 2 */
+.page2-flower {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 10px;
+  top: 1000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  pointer-events: none;
+  animation: bloom-page2 4.8s ease-in-out infinite;
+}
+
+@keyframes bloom-page2 {
+
+  0%,
+  100% {
+    transform: rotate(-15deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(-13deg) scale(1.04);
+  }
+}
+
+/* 11 */
+.text-11 {
+  position: absolute;
+  width: 113.88px;
+  height: 49.88px;
+  left: 239px;
+  top: 1116px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 99px;
+  color: #AD8638;
+}
+
+/* image 5 (strokes) */
+.image-5-strokes {
+  position: absolute;
+  width: 428px;
+  height: 242px;
+  left: 0px;
+  top: 1351px;
+}
+
+/* DAY TIME PLAN 
+.text-day-plan {
+  position: absolute;
+  width: 124px;
+  height: 46px;
+  left: 39px;
+  top: 1446px;
+  font-family: 'Gulim', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}*/
+
+/* EVENING PLAN */
+.text-evening-plan {
+  position: absolute;
+  width: 124px;
+  height: 46px;
+  left: 239px;
+  top: 1492px;
+  font-family: 'Gulim', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+/* ==================================
+   PAGE THREE STYLES (1704px - 2556px)
+   (was Page 4 - Evening Time)
+   ================================== */
+
+.image-8-bg {
+  position: absolute;
+  width: 402px;
+  height: 852px;
+  left: -4px;
+  top: 1704px;
+}
+
+.text-evening-time {
+  position: absolute;
+  width: 315px;
+  height: 62px;
+  left: 38px;
+  top: 1756px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 77px;
+  text-align: center;
+  color: #110d1f;
+  z-index: 3;
+}
+
+.image-10-frame {
+  position: absolute;
+  width: 280px;
+  height: 371px;
+  left: 60px;
+  top: 1964px;
+  z-index: 2;
+}
+
+.text-invitation {
+  position: absolute;
+  width: 224px;
+  height: auto;
+  left: 88px;
+  top: 2090px;
+  font-family: 'Glegoo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: justify;
+  color: #6B6767;
+  text-shadow: 22px 22px 40px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+.text-invitation .text-red {
+  color: #CD1C1C;
+  font-weight: 700;
+}
+
+.text-invitation .link-registry {
+  color: #6B6767;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.image-11-bow {
+  position: absolute;
+  width: 130.34px;
+  height: 140.43px;
+  left: 20px;
+  top: 1948px;
+  transform: rotate(-23.62deg);
+  z-index: 4;
+}
+
+.image-13-bow {
+  position: absolute;
+  width: 130.34px;
+  height: 140.43px;
+  left: 230px;
+  top: 1948px;
+  transform: rotate(24.1deg);
+  z-index: 4;
+}
+
+.image-12-bow {
+  position: absolute;
+  width: 169.3px;
+  height: 207.86px;
+  left: 110px;
+  top: 1898px;
+  transform: rotate(91.09deg);
+  z-index: 5;
+}
+
+.text-house-party {
+  position: absolute;
+  width: 104px;
+  height: 52px;
+  left: 208px;
+  top: 2255px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: right;
+  color: #FFA2EC;
+  -webkit-text-stroke: 1px #CD1C1C;
+  z-index: 3;
+}
+
+.image-15-ticket {
+  position: absolute;
+  width: 290px;
+  height: 161px;
+  left: 56px;
+  top: 2377px;
+  z-index: 2;
+}
+
+.text-ticket-catch {
+  position: absolute;
+  width: 174px;
+  height: 128px;
+  left: 142px;
+  top: 2392px;
+  font-family: 'Glegoo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #6B6767;
+  text-shadow: 22px 22px 40px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+.text-ticket-catch .text-red {
+  color: #CD1C1C;
+  font-weight: 700;
+}
+
+/* ==================================
+   PAGE FOUR STYLES (2556px - 3408px)
+   (was Page 5 - Lock Your Color)
+   ================================== */
+
+.image-16-bg {
+  position: absolute;
+  width: 402px;
+  height: 852px;
+  left: -9px;
+  top: 2556px;
+  background-color: #d6e8c8;
+}
+
+.text-lock-color {
+  position: absolute;
+  width: 315px;
+  height: 162px;
+  left: 43px;
+  top: 2596px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 54px;
+  text-align: center;
+  color: #110d1f;
+  z-index: 2;
+}
+
+.image-17-catbow {
+  position: absolute;
+  width: 200px;
+  height: 198px;
+  left: -50px;
+  top: 2708px;
+  z-index: 3;
+}
+
+/* DIVASZZ bubble box */
+.frame-2-bubble-box {
+  position: absolute;
+  width: 299px;
+  height: 240px;
+  left: 51px;
+  top: 2835px;
+  background: #FFF4FD;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.vector-4-border {
+  position: absolute;
+  width: 272px;
+  height: 211px;
+  left: 14px;
+  top: 16px;
+  border: 3px solid #EA8AC2;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.text-divaszz {
+  position: absolute;
+  width: 100%;
+  top: 21px;
+  left: 0;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(241, 52, 212, 0.84);
+  z-index: 2;
+}
+
+.bubble-area {
+  position: absolute;
+  inset: 50px 14px 14px 14px;
+  overflow: hidden;
+}
+
+.bubble-item {
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 1;
+  padding: 3px 7px;
+  border-radius: 20px;
+  transition: none;
+}
+
+.bubble-name {
+  background: rgba(255, 162, 236, 0.25);
+  color: #6B6767;
+  border: 1px solid #EA8AC2;
+}
+
+.bubble-heart {
+  font-size: 14px;
+  color: #EA8AC2;
+  background: none;
+  border: none;
+}
+
+/* Input + Button */
+.frame-3-input {
+  position: absolute;
+  width: 299px;
+  height: 40px;
+  left: 47px;
+  top: 3104px;
+  background: #FFFFFF;
+  border: 1px solid #868686;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.rsvp-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0 14px;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.82);
+}
+
+.rsvp-input::placeholder {
+  color: rgba(0, 0, 0, 0.42);
+  font-size: 10px;
+}
+
+.frame-4-btn {
+  position: absolute;
+  width: 135px;
+  height: 35px;
+  left: 47px;
+  top: 3156px;
+  background: #D4F397;
+  border: 1px solid #868686;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: opacity 0.15s;
+}
+
+.frame-4-btn:hover {
+  opacity: 0.85;
+}
+
+.btn-accept-text {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #296217;
+}
+
+.image-18-catbee {
+  position: absolute;
+  width: 175px;
+  height: 216px;
+  left: 218px;
+  top: 3186px;
+  z-index: 3;
+}
+
+/* ==================================
+   PAGE FIVE STYLES (3408px - 4260px)
+   (was Page 6 - Warning)
+   ================================== */
+
+.image-19-bg {
+  position: absolute;
+  width: 402px;
+  height: 852px;
+  left: -4px;
+  top: 3408px;
+  background-color: #d6e8c8;
+}
+
+.image-21-sharkcat {
+  position: absolute;
+  width: 154px;
+  height: 191px;
+  left: 120px;
+  top: 3594px;
+  z-index: 2;
+}
+
+.image-20-warning {
+  position: absolute;
+  width: 385px;
+  height: 288px;
+  left: 10px;
+  top: 3785px;
+  z-index: 2;
+  right: 10px;
+}
+
+.text-warning-terms {
+  position: absolute;
+  width: 338px;
+  height: auto;
+  left: 30px;
+  top: 3923px;
+  font-family: 'Glegoo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000000;
+  z-index: 3;
+}
+
+/* ==================================
+   PAGE SIX STYLES (4260px - 5112px)
+   (was Page 7 - Toh Aarahe)
+   ================================== */
+
+.image-22-bg {
+  position: absolute;
+  width: 402px;
+  height: 852px;
+  left: -4px;
+  top: 4260px;
+}
+
+.text-aarahe {
+  position: absolute;
+  width: 290px;
+  height: 149px;
+  left: 52px;
+  top: 4418px;
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 54px;
+  text-align: center;
+  color: #030303;
+  z-index: 2;
+}
+
+.image-23-catgun {
+  position: absolute;
+  width: 351px;
+  height: 411px;
+  left: 25px;
+  top: 4709px;
+  z-index: 2;
+}
+
+/* ==================================
+   SHARED / UTILITY STYLES
+   ================================== */
+
+.text-pink {
+  color: #c93582;
+}
+
+.text-red {
+  color: #CD1C1C;
+  font-weight: 700;
+}
