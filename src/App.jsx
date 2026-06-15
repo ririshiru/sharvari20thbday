@@ -32,24 +32,34 @@ function useBubbles(names) {
       { id: 'h2', label: '\u2665', type: 'heart' },
       { id: 'h3', label: '\u2665', type: 'heart' },
     ];
-    const W = 272, H = 240;
-    const initial = entries.map((e, i) => ({
-      ...e,
-      x: 20 + Math.random() * (W - 60),
-      y: 20 + Math.random() * (H - 30),
-      vx: (Math.random() - 0.5) * 0.4,
-      vy: (Math.random() - 0.5) * 0.4,
-    }));
+    const W = 271, H = 176;
+    const initial = entries.map((e, i) => {
+      const estimatedWidth = e.type === 'name' ? Math.min(e.label.length * 6.5 + 30, 250) : 20;
+      return {
+        ...e,
+        width: estimatedWidth,
+        x: Math.random() * Math.max(0, W - estimatedWidth),
+        y: Math.random() * (H - 26),
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4,
+      };
+    });
     setBubbles(initial);
 
     let state = initial.map(b => ({ ...b }));
     const step = () => {
       state = state.map(b => {
-        let { x, y, vx, vy } = b;
+        let { x, y, vx, vy, width } = b;
         x += vx; y += vy;
-        if (x < 2 || x > W - 60) vx = -vx;
-        if (y < 2 || y > H - 24) vy = -vy;
-        return { ...b, x, y, vx, vy };
+        if (x < 0 || x > W - width) {
+          vx = -vx;
+          x = Math.max(0, Math.min(x, W - width));
+        }
+        if (y < 0 || y > H - 26) {
+          vy = -vy;
+          y = Math.max(0, Math.min(y, H - 26));
+        }
+        return { ...b, x, y, vx, vy, width };
       });
       setBubbles(state.map(b => ({ ...b })));
       animRef.current = requestAnimationFrame(step);
@@ -227,7 +237,7 @@ function App() {
                 className={`bubble-item ${b.type === 'heart' ? 'bubble-heart' : 'bubble-name'}`}
                 style={{ left: b.x, top: b.y }}
               >
-                {b.label}
+                {b.type === 'name' ? <span className="bubble-text">{b.label}</span> : b.label}
                 {b.type === 'name' && (
                   <span
                     className="delete-cross"

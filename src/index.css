@@ -584,6 +584,15 @@ body {
   background: rgba(255, 162, 236, 0.25);
   color: #6B6767;
   border: 1px solid #EA8AC2;
+  display: flex;
+  align-items: center;
+  max-width: 250px;
+}
+
+.bubble-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .bubble-heart {
