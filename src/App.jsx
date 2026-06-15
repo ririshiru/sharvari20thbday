@@ -228,6 +228,20 @@ function App() {
                 style={{ left: b.x, top: b.y }}
               >
                 {b.label}
+                {b.type === 'name' && (
+                  <span
+                    className="delete-cross"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const next = names.filter(n => n !== b.label);
+                      setNames(next);
+                      localStorage.setItem('p5_names', JSON.stringify(next));
+                      updateRemoteNames(next);
+                    }}
+                  >
+                    ×
+                  </span>
+                )}
               </span>
             ))}
           </div>

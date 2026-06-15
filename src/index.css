@@ -58,7 +58,7 @@ body {
   position: absolute;
   width: 270px;
   height: 695px;
-  left: 40px;
+  left: 20px;
   top: 190px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -591,6 +591,17 @@ body {
   color: #EA8AC2;
   background: none;
   border: none;
+}
+
+.delete-cross {
+  margin-left: 6px;
+  cursor: pointer;
+  color: #EA8AC2;
+  font-weight: 800;
+  font-size: 14px;
+}
+.delete-cross:hover {
+  color: #D65A9E;
 }
 
 /* Input + Button */
