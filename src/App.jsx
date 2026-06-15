@@ -190,7 +190,7 @@ function App() {
         {/* Invitation Paragraph */}
         <div className="text-invitation">
           It’s my birthday, so you already know we have to do it big. Grab the prettiest, most scandalous dress in your closet and meet me at my place at <span className="text-red">6:00 PM</span> sharp!
-          We are doing it all: fun games, an actual photoshoot, tons of food, a massive snack haul, and obviously a lot of dancing. I would be wearing black western dress.... Join the group chat: <a href="https://chat.whatsapp.com/J3SfeKoXFYm5L6mLhHaemn?s=cl&p=i&ilr=1" className="link-registry" rel="noopener noreferrer">VIEW MY GIFT REGISTRY HERE</a>
+          We are doing it all: fun games, an actual photoshoot, tons of food, a massive snack haul, and obviously a lot of dancing. I would be wearing black western dress.... Join the group chat: <a href="https://chat.whatsapp.com/J3SfeKoXFYm5L6mLhHaemn?s=cl&p=i&ilr=1" className="link-registry" rel="noopener noreferrer">Join Group Chat</a>
 
         </div>
 
